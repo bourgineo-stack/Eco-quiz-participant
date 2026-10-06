@@ -3,7 +3,7 @@
  * v5 - Ajout getCurrentTour(), gestion fin de quiz, trigger calcul scores
  */
 const CONFIG = {
-    sheetUrl: 'https://script.google.com/macros/s/AKfycbzcoRcBwj-oX0vkBG4NMjGRst8g2K34oiTdq_nTAtLcx8-P-dSaFeVCCkrNUV1ZJnUYYQ/exec'
+    sheetUrl: 'https://script.google.com/macros/s/AKfycbwrmdzjr9NTgZW7KDRcS2B054JmUBjhU_jhOQknfo4yx5aQ7y9ebBTt6Ap9MV2SEhahLw/exec'
 };
 
 let QUESTIONS = [];
