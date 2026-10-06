@@ -162,6 +162,7 @@ function getCurrentTour(referenceTime) {
     // Mode atelier : un seul passage, le tour vaut toujours 1
     if (SETTINGS.mode === 'session') return 1;
     const now = Date.now();
+    const elapsed = (now - referenceTime) / 1000;
 
     const cycleLength = SETTINGS.voteDuration + SETTINGS.explainDuration;
     const disc = SETTINGS.discussionTimeSup || 0;
